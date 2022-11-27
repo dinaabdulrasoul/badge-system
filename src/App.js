@@ -29,7 +29,7 @@ function App() {
         <form className="search-box" onSubmit={handleSearch}>
           <input
             type="password"
-            placeholder="Enter your badge passcode"
+            placeholder="Enter your badge passcode then press enter:"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           ></input>
